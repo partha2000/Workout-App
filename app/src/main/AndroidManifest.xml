@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitness_31">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lco_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DailyMode_RecyclerView"></activity>
+        <activity android:name=".workout_timer" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".random_mode_exercises_recyclerview" />
+        <activity android:name=".workout_timer2"/>
+        <activity
+            android:name=".splashScreenActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

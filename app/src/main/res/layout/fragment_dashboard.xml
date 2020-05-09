@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    >
+
+
+<!--<androidx.cardview.widget.CardView-->
+<!--    android:id="@+id/graph_card"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:elevation="30dp">-->
+<!--    <com.github.mikephil.charting.charts.BarChart-->
+<!--        android:id="@+id/barChart"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="400dp"-->
+<!--        />-->
+<!--</androidx.cardview.widget.CardView>-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/line_card"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        >
+        <com.github.mikephil.charting.charts.LineChart
+            android:layout_width="match_parent"
+            android:id="@+id/line_chart"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/summary_card"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line_card"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="WORKOUT SUMMAY"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"/>
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/summary"
+            android:id="@+id/time_spent_field"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Time spent today = "
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/calories"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/time_spent_field"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Calories Burnt = "/>
+
+
+
+
+
+<!--            <com.airbnb.lottie.LottieAnimationView-->
+<!--                android:id="@+id/animation_view"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="85dp"-->
+<!--                android:layout_marginEnd="6dp"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                app:lottie_fileName=""-->
+<!--                app:lottie_autoPlay="true"-->
+<!--                app:lottie_loop="true"-->
+<!--                />-->
+
+
+</RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+<!--    <WebView-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_below="@id/summary_card"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:id="@+id/fire_gif"-->
+<!--        android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--        />-->
+</RelativeLayout>

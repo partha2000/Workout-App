@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+        <TextView
+            android:id="@+id/repetation_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Repetitions"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/repetation_value"
+            android:layout_below="@+id/repetation_textview"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="repetations"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:id="@+id/repetation_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DONE"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>
