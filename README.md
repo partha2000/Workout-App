@@ -6,3 +6,5 @@ It has all the basic features asked for, like a random mode and a daily mode. Th
 On completing the daily set, it will get added to the database and one can monitor his/her progress from the 📈stats section.
 Each workout also has a definite amount of rest time in between. Each workout has a piece of different music attached which will serve as a auditory marker to differentiate between.
 
+
+### SCREENSHOTS : <a href="https://github.com/partha2000/Workout-App/tree/master/screenshots">Link</a>
