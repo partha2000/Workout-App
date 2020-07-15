@@ -8,3 +8,8 @@ Each workout also has a definite amount of rest time in between. Each workout ha
 
 
 ### SCREENSHOTS : <a href="https://github.com/partha2000/Workout-App/tree/master/screenshots">Link</a>
+<img src="https://github.com/partha2000/Workout-App/blob/master/screenshots/basic%20workout.PNG" align="left"></img>
+<img src="https://github.com/partha2000/Workout-App/blob/master/screenshots/modes.PNG" align="center"></img>
+<img src="https://github.com/partha2000/Workout-App/blob/master/screenshots/splash%20screen.PNG" align="right"></img>
+<br>
+<img src="https://github.com/partha2000/Workout-App/blob/master/screenshots/stats.PNG" align="center"></img>
